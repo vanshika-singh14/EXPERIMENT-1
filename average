@@ -1,0 +1,15 @@
+int main() {
+    int num1, num2, average;
+
+    cout << "Enter the first number: ";
+    cin >> num1;
+
+    cout << "Enter the second number: ";
+    cin >> num2;
+
+    average = (num1 + num2) / 2.0;
+
+    cout << "The average of " << num1 << " and " << num2 << " is " << average << std::endl;
+
+    return 0;
+} 
